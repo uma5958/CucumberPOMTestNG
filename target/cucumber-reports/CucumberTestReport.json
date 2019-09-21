@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "test-login-to-application;test-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17791119000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open browser and navigate to url",
+            "match": {
+              "location": "LoginStepDefinition.open_browser_and_navigate_to_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2529621300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters valid username and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7216335900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to login",
+            "match": {
+              "location": "LoginStepDefinition.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 895748900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login to application",
+    "description": "",
+    "id": "test-login-to-application",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

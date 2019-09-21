@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login page title not matched]]>
+    </line>
+    <line>
+      <![CDATA[Homepage title matched]]>
+    </line>
+    <line>
+      <![CDATA[Logout button displayed and login in successful]]>
+    </line>
+  </reporter-output>
+  <suite name="actiTime Test Suite" duration-ms="30193" started-at="2019-09-21T15:28:50Z" finished-at="2019-09-21T15:29:20Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@7225790e]" name="feature" class="Runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="actiTime Test" duration-ms="30193" started-at="2019-09-21T15:28:50Z" finished-at="2019-09-21T15:29:20Z">
+      <class name="Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner@7225790e]" name="setUpClass" is-config="true" duration-ms="400" started-at="2019-09-21T15:28:50Z" finished-at="2019-09-21T15:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@7225790e]" name="feature" duration-ms="28506" started-at="2019-09-21T15:28:51Z" description="Run Cucumber Feature" data-provider="features" finished-at="2019-09-21T15:29:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test login to application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login page title not matched]]>
+            </line>
+            <line>
+              <![CDATA[Homepage title matched]]>
+            </line>
+            <line>
+              <![CDATA[Logout button displayed and login in successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:Runner.TestRunner@7225790e]" name="finish" is-config="true" duration-ms="1132" started-at="2019-09-21T15:29:19Z" finished-at="2019-09-21T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- actiTime Test -->
+  </suite> <!-- actiTime Test Suite -->
+</testng-results>
