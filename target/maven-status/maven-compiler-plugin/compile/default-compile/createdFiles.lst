@@ -1,6 +1,6 @@
 stepDefinitions\LoginStepDefinition.class
-Runner\TestRunner.class
 pages\LoginPage.class
+pages\HomePage.class
+Runner\TestRunner.class
 utils\BasePage.class
 utils\TestUtil.class
-pages\HomePage.class
